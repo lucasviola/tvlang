@@ -6,6 +6,8 @@ import Symbols from "helpers/symbols";
 // E.g: var foo = 'bar';
 // <var: keyword> <foo:identifier> <bar:string>
 
-export default class Token {
-
+export default class Tokenizer {
+	constructor(sentence){
+		this.sentence = sentence;
+	}
 }
