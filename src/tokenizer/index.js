@@ -1,4 +1,4 @@
-import Symbols from "helpers/symbols";
+import{ dictionary as dict } from "helpers/symbols";
 
 
 //Tokenizer code
@@ -10,4 +10,6 @@ export default class Tokenizer {
 	constructor(sentence){
 		this.sentence = sentence;
 	}
+
+
 }
