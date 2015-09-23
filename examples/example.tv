@@ -1,0 +1,13 @@
+//Actors represent variables
+//This should be translated to:
+// "var jonSnow;"
+
+[ACTORS]
+Jon Snow, a brave fellow from winterfell.
+
+//This should translate to:
+// "(jonSnow == null);"
+//and eval to either true or false
+
+[ACT I]
+You know nothing, Jon Snow. 
