@@ -8,7 +8,8 @@ describe('tokenizer', () => {
 		
 		it('should be a keyword', () => {
 			Tokenizer.identifyToken('[actors]').should.equal('keyword');
-			Tokenizer.identifyToken('[act]').should.equal('keyword');		
+			Tokenizer.identifyToken('[act]').should.equal('keyword');
+			Tokenizer.identifyToken(',').should.equal('var_assignment');		
 		});
 	
 	});
