@@ -1,16 +1,20 @@
 let chai = require('chai'),
-	splitter = require('../src/helpers/splitter');
+	splitter = require('../src/helpers/splitter'),
+	Tokenizer = require('../src/tokenizer');
 
 chai.should();
 
-describe('splitter', () => {
-	describe('sentence', () => {
+describe('tokenizer', () => {
+	describe('token', () => {
 		
-		it('should return an array', () => {
-			splitter.split('split sentence').should.equal(['split', 'sentence']);
+
+		it('should be a keyword', () => {
+			Tokenizer.identifyTokens('[actor]').should.be('keyword');
 		
 		});
 	
 	});
 
 });
+
+
