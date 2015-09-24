@@ -7,9 +7,9 @@ import { splitter as sp } from "../helpers/splitter";
 // <var: keyword> <foo:identifier> <bar:string>
 
 export function identifyTokens(token: String){
-	//if(token in dict){
-	//	return value[token];
-	//}
+//	if(token in dict){
+//		return value[token];
+//	}
 
 	return 'keyword';
 }
