@@ -11,6 +11,10 @@ export function identifyTokens(token: String){
 	if(token === '[act]') return 'keyword';
 }
 
+export function split(sentence){
+	return sentence.split(" ");
+}
+
 export default class Tokenizer {
 	constructor(sentence){
 		this.sentence = sentence;

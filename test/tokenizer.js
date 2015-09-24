@@ -11,8 +11,15 @@ describe('tokenizer', () => {
 			Tokenizer.identifyTokens('[actors]').should.equal('keyword');
 			Tokenizer.identifyTokens('[act]').should.equal('keyword');		
 		});
-
 	
+	});
+
+	describe('sentence', () => {
+	
+		it('should split', () => {
+		
+			Tokenizer.split('Actor, is an actor').should.equal('');
+		});
 	});
 
 });
