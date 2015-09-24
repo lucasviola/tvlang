@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lucasviola/tvlang.svg?branch=master)](https://travis-ci.org/lucasviola/tvlang)
+
 ## tvlang
 
 ## Esoteric Programming Language based on tv shows
