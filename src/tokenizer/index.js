@@ -1,5 +1,5 @@
-import { dictionary as dict } from "helpers/symbols";
-import { splitter as sp } from "helpers/splitter";
+import { dictionary as dict } from "../helpers/symbols";
+import { splitter as sp } from "../helpers/splitter";
 
 //Tokenizer code
 // Turns Strings into key:value pairs (lexemmes)
@@ -7,9 +7,11 @@ import { splitter as sp } from "helpers/splitter";
 // <var: keyword> <foo:identifier> <bar:string>
 
 export function identifyTokens(token: String){
-	if(token in dict){
-		return value[token]
-	}	
+	//if(token in dict){
+	//	return value[token];
+	//}
+
+	return 'keyword';
 }
 
 export default class Tokenizer {
