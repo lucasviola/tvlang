@@ -4,7 +4,13 @@
 
 * See the [examples](https://github.com/lucasviola/tvlang/tree/master/examples).
 
-### jOker - tvlangs parser
+### Transpiling the code:
+
+* Run: `babel src -w --out-dir lib/`
+
+### Running the tests:
+
+*  Run: `mocha --compilers js:babel/register`
 
 Heavily based on:
 * [Babel](https://github.com/babel/babel)
