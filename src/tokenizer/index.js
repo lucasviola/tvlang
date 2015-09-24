@@ -7,7 +7,7 @@ import { splitter as sp } from "../helpers/splitter";
 // <var: keyword> <foo:identifier> <bar:string>
 
 export function identifyTokens(token: String){
-	if(token === '[actor]' ) return 'keyword';
+	if(token === '[actors]' ) return 'keyword';
 }
 
 export default class Tokenizer {

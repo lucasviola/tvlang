@@ -7,11 +7,12 @@ chai.should();
 describe('tokenizer', () => {
 	describe('token', () => {
 		
-
 		it('should be a keyword', () => {
-			Tokenizer.identifyTokens('[actor]').should.equal('keyword');
+			Tokenizer.identifyTokens('[actors]').should.equal('keyword');
 		
 		});
+
+		//it('should h');
 	
 	});
 
