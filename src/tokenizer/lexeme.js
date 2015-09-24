@@ -7,9 +7,5 @@ export default class Lexeme {
 		this.value = value;
 	};
 
-	var symbols = {}
-
-
-
 }
 
