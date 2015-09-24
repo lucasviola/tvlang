@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lucas Viola",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chai": "~3.3.0",
+    "mocha": "~2.3.3",
+    "babel": "~5.8.23"
+  }
 }
