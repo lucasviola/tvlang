@@ -18,7 +18,7 @@ describe('tokenizer', () => {
 	
 		it('should split', () => {
 		
-			Tokenizer.split('Actor, is an actor').should.equal('');
+			Tokenizer.split('Actor, is an actor').length.should.be.equal(4);
 		});
 	});
 
