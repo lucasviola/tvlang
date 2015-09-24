@@ -12,6 +12,10 @@
 
 *  Run: `mocha --compilers js:babel/register`
 
+### Running coverage:
+
+* Run: `istanbul cover mocha -- --compilers js:Babel/register`
+
 Heavily based on:
 * [Babel](https://github.com/babel/babel)
 * [Acorn](https://github.com/marijnh/acorn)
