@@ -1,3 +1,4 @@
 *.swp
 lib/
 *.swo
+node_modules/*
