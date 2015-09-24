@@ -4,18 +4,27 @@ let chai = require('chai'),
 chai.should();
 
 describe('tokenizer', () => {
-	describe('token', () => {
+	describe('[actors]', () => {
 		
 		it('should be a keyword', () => {
 			Tokenizer.identifyToken('[actors]').should.equal('keyword');
-			Tokenizer.identifyToken('[act]').should.equal('keyword');
-			Tokenizer.identifyToken(',').should.equal('var_assignment');		
 		});
 	
 	});
 
+	describe('[act]', () => {
+		it('should be a keyword', () =>{
+			Tokenizer.identifyToken('[act]').should.equal('keyword');	
+		});
+	});
+
+	describe(',', () =>{
+		it('should be a var assignment', () =>{
+			Tokenizer.identifyToken(',').should.equal('var_assignment');
+		});
+	});
+
 	describe('sentence', () => {
-	
 		it('should split', () => {
 		
 			Tokenizer.split('Actor, is an actor').length.should.be.equal(4);
