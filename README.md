@@ -10,11 +10,7 @@
 
 ### Running the tests:
 
-*  Run: `mocha --compilers js:babel/register`
-
-### Running coverage:
-
-* Run: `istanbul cover mocha -- --compilers js:Babel/register`
+*  npm test
 
 Heavily based on:
 * [Babel](https://github.com/babel/babel)
