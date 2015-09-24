@@ -8,7 +8,7 @@ import { splitter as sp } from "../helpers/splitter";
 
 export function identifyTokens(token: String){
 	if(token === '[actors]' ) return 'keyword';
-	else return 'keyword';
+	if(token === '[act]') return 'keyword';
 }
 
 export default class Tokenizer {

@@ -9,7 +9,7 @@ describe('tokenizer', () => {
 		
 		it('should be a keyword', () => {
 			Tokenizer.identifyTokens('[actors]').should.equal('keyword');
-			Tokenizer.identifyTokens('[act \cx]').should.equal('keyword');		
+			Tokenizer.identifyTokens('[act]').should.equal('keyword');		
 		});
 
 	
