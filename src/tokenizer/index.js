@@ -1,5 +1,3 @@
-import { dictionary as dict } from "../helpers/symbols";
-
 //Tokenizer code
 // Turns Strings into key:value pairs (lexemmes)
 // E.g: var foo = 'bar';
@@ -8,6 +6,7 @@ import { dictionary as dict } from "../helpers/symbols";
 export function identifyToken(token: String){
 	if(token === '[actors]' ) return 'keyword';
 	if(token === '[act]') return 'keyword';
+	if(token == ',') return 'var_assignment';
 }
 
 export function split(sentence){
