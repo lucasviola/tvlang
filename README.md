@@ -8,7 +8,7 @@
 
 ### Transpiling the code:
 
-* Run: `babel src -w --out-dir lib/`
+* Run: `babel src --out-dir lib/`
 
 ### Running the tests:
 
